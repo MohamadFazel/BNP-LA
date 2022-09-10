@@ -1,6 +1,6 @@
 
-Bayesian nonparametric lifetime analysis (BNP-LA) is a software packaged developed base on the framework described in
-"Fluorescence Lifetime: Beating the IRF and interpulse window" by Mohamadreza Fazel, Alexander Vallmitjana, 
+Bayesian nonparametric lifetime analysis (BNP-LA) is a software packaged developed base on the framework described 
+in "Fluorescence Lifetime: Beating the IRF and interpulse window" by Mohamadreza Fazel, Alexander Vallmitjana, 
 Lorenzo Scipioni, Enrico Gratton, Michelle A. Digman and Steve Presse. 
 
 BNP-LA is capable of dealing with a broad range of lifetimes and photon ratios using as few photons as 500
