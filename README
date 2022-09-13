@@ -19,7 +19,7 @@ command window. The gui has 4 sections:
 	  		   the input data (Default: 5)
 	  Max Pulses:      Maximum number of pulses that a fluorophore might stay excited (Default: 5)
 	  Alpha:	   parameter of the gamma prior on lifetimes (Default: 1)
-	  Beta:	   parameter of the gamma prior on lifetimes (Default: 50)
+	  Beta:	           parameter of the gamma prior on lifetimes (Default: 50)
 	  
 3) Section with no title:
 	  Photon Count:    number of photons to be used within the analysis
