@@ -23,7 +23,7 @@ command window. The gui has 4 sections:
 	  
 3) Section with no title: 
 	  Photon Count:    number of photons to be used within the analysis
-	  Iterations:      number of samples to be taken from the posterior (larger iterations tend to give better results)
+	  Iterations:      number of samples to be taken from the posterior (more samples tend to give better results)
 	  LOAD DATA:       this button popups a directory where data file can be selected
 	  RUN:             this button runs the algorithm
 	  
