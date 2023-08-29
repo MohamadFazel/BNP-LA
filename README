@@ -1,19 +1,19 @@
 
 Bayesian nonparametric lifetime analysis (BNP-LA) is a software packaged developed base on the framework described 
 in "Fluorescence Lifetime: Beating the IRF and interpulse window" by Mohamadreza Fazel, Alexander Vallmitjana, 
-Lorenzo Scipioni, Enrico Gratton, Michelle A. Digman and Steve Presse, bioRxiv(2022). 
+Lorenzo Scipioni, Enrico Gratton, Michelle A. Digman and Steve Presse, Biophysical Journal(2023). 
 
 BNP-LA is capable of dealing with a broad range of lifetimes and photon ratios using as few photons as 500
 acquired using a pulsed illumination procedure. The software package comes with a gui and here we illustrate 
 how to work with the gui. To open the gui set your MATLAB path to the Functios-folder and type gui in the 
 command window. The gui has 4 sections:
 
-1) Exp Params: this section contains parameters from the experimental setup:
+1) Exp Params: this section contains calibrated parameters from the experimental setup:
           Interpulse time: the period between two consecutive laser pulses in ns (Default: 12.8ns)
           IRF mean:        mean of the Gaussian IRF in ns (Default: 12.2ns)
           IRF sigma:       sigma of the Gaussian IRF in ns (Default: 0.66ns)
           
-2) Method Params:
+2) Method Params: parameters of the analysis method which are mostly good as they are
 	  Max Species:     Maximum number of species (described by M in the paper) to be considered in the
 	  		   Dirichlet process. This should be larger than the number of species present in 
 	  		   the input data (Default: 5)
@@ -21,10 +21,10 @@ command window. The gui has 4 sections:
 	  Alpha:	   parameter of the gamma prior on lifetimes (Default: 1)
 	  Beta:	           parameter of the gamma prior on lifetimes (Default: 50)
 	  
-3) Section with no title:
+3) Section with no title: 
 	  Photon Count:    number of photons to be used within the analysis
-	  Iterations:      number of samples to be taken from the posterior
-	  LOAD DATA:       this button popups a directory where data file can be picked
+	  Iterations:      number of samples to be taken from the posterior (larger iterations tend to give better results)
+	  LOAD DATA:       this button popups a directory where data file can be selected
 	  RUN:             this button runs the algorithm
 	  
 4) Results:
