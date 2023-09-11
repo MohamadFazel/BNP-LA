@@ -22,7 +22,7 @@ gui in the command window. The gui has 4 sections:
 	  Beta:	           parameter of the gamma prior on lifetimes (Default: 50)
 	  
 3) Section with no title: 
-	  Photon Count:    number of photons to be used within the analysis (should be smaller than the total
+	  Photon Count:    number of photons to be used within the analysis (must be smaller than the total
                            input photons)
 	  Iterations:      number of samples to be taken from the posterior (more samples tend to give better 
                            results)
