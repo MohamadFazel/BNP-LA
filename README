@@ -30,7 +30,7 @@ gui in the command window. The gui has 4 sections:
 	  RUN:             this button runs the algorithm
 	  
 4) Results:
-	  Photon Ratio Threshold: this is a key parameter in plotting of the results. All plots will show histograms
+	  Photon Ratio Threshold: this is a key parameter in plotting results. All plots will show histograms
                                   of samples with photon ratios (weights) larger than this threshold value
 	  Parameter:              pick one of the options from the popup menu to be shown
 	  PLOT:                   this button will plot the results for the parameter picked above
