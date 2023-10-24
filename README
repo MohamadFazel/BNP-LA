@@ -5,7 +5,7 @@ Lorenzo Scipioni, Enrico Gratton, Michelle A. Digman and Steve Presse, Biophysic
 
 BNP-LA is capable of dealing with a broad range of lifetimes and photon ratios using as few photons as 500
 acquired using a pulsed illumination procedure. The MATLAB software package comes with a gui and here we 
-illustrate how to work with the gui. To open the gui set your MATLAB path to the Functios-folder and type 
+illustrate how to work with the gui. To open the gui set your MATLAB path to the Functions-folder and type 
 gui in the command window. The gui has 4 sections:
 
 1) Exp Params: this section contains calibrated parameters from the experimental setup:
@@ -14,25 +14,32 @@ gui in the command window. The gui has 4 sections:
           IRF sigma:       sigma of the Gaussian IRF in ns (Default: 0.66ns)
           
 2) Method Params: parameters of the analysis method which are mostly good as they are
-	  Max Species:     Maximum number of species (described by M in the paper) to be considered in the
+	  Max Species:     maximum number of species (described by M in the paper) to be considered in the
 	  		   Dirichlet process. This should be larger than the number of species present in 
 	  		   the input data (Default: 5)
-	  Max Pulses:      Maximum number of pulses that a fluorophore might stay excited (Default: 5)
+	  Max Pulses:      maximum number of pulses following the excitation pulse over which a fluorophore might remain excited (Default: 5) 
+                           N.B. Setting too high can increase computational cost.
 	  Alpha:	   parameter of the gamma prior on lifetimes (Default: 1)
 	  Beta:	           parameter of the gamma prior on lifetimes (Default: 50)
 	  
 3) Section with no title: 
 	  Photon Count:    number of photons to be used within the analysis (must be smaller than the total
-                           input photons)
+                           input photons) (Default: 5000)
 	  Iterations:      number of samples to be taken from the posterior (more samples tend to give better 
-                           results)
+                           results but adds computational cost) (Default: 2500)
 	  LOAD DATA:       this button popups a directory where data file can be selected
 	  RUN:             this button runs the algorithm
 	  
 4) Results:
 	  Photon Ratio Threshold: this is a key parameter in plotting results. All plots will show histograms
                                   of samples with photon ratios (weights) larger than this threshold value
-	  Parameter:              pick one of the options from the popup menu to be shown
+	  Parameter:              pick one of the options from the popup menu to be shown. There are four options here:
+			          a) "plot lifetime" will show a plot of all the lifetime samples vs Monte Carlo iterations 
+                                     (good at assessing convergence) taken from the posterior.
+                                  b) "plot ratio" same as above but for the photon ratio.
+                                  c) "hist lifetime" will show the histogram of the sampled lifetimes associated to the species
+                                     with photon ratios larger than the threshold given.
+                                  d) "hist ratios" the same as item c but for photon ratios.
 	  PLOT:                   this button will plot the results for the parameter picked above
 	  
 	  
@@ -41,9 +48,9 @@ the default parameters in the gui. Use the load button to load the data and hit 
 analyze the data. Next, select one of the parameters from the popup menu in the "Results" section and hit PLOT.   
 Note: the default number of iterations is 2500 but this value is data dependent and some data sets might need larger 
 number of iterations. Specifically, data sets containing 3 or more species or more similar lifetimes require more 
-iterations (samples) wich, in turn, leads to more computational complexity. The other data set is in vivo experimentaldata containing three species. For a description of this data see the following.
+iterations (samples) which, in turn, leads to more computational complexity. The other data set is in vivo experimental data containing three species. For a description of this data see the following.
 
-If you happen to have any problem please shoot me an email at fazel.mohamadreza@gmail.com
+If you happen to have any problem please shoot me an email at fazel.mohamadreza@gmail.com or spresse@asu.edu
 	   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Experimental Data Description:
