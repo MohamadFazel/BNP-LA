@@ -41,11 +41,11 @@ the default parameters in the gui. Use the load button to load the data and hit 
 analyze the data. Next, select one of the parameters from the popup menu in the "Results" section and hit PLOT.   
 Note: the default number of iterations is 2500 but this value is data dependent and some data sets might need larger 
 number of iterations. Specifically, data sets containing 3 or more species or more similar lifetimes require more 
-iterations (samples) wich, in turn, leads to more computational complexity. The other data set is in vivo experimental
-data containing three species. For a description of this data see the following.
+iterations (samples) wich, in turn, leads to more computational complexity. The other data set is in vivo experimentaldata containing three species. For a description of this data see the following.
 
 If you happen to have any problem please shoot me an email at fazel.mohamadreza@gmail.com
 	   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Experimental Data Description:
 Experimental data were acquired on an ISS-Alba confocal microscope. Excitation was provided by a 780 nm 2-photon laser pulsed at 80 MHz (Calmar Laser). Emission was collected by an avalanche photodiode (Excelitas Technologies) and an ISS A320 Fast FLIM unit for lifetime determination. A 760 short-pass dichroic was used to split the excitation and emission light; no additional emission filter was used. Images were collected with a 16 μs pixel dwell time with an image size of 256 × 256 pixels and a 0.39 μm pixel size, accumulating 7–9 frames for each data set. After each experiment, the images were preprocessed by extracting individual photons and constructing a list of arrival times for each photon, both in reference to the start of the measurement and to the previous laser pulse. MDA-MB-231 cells were seeded in a glass-bottom 8-well plate (Ibidi GmbH) previously coated with 2 μg/mL Fibronectin in Dulbecco’s phosphate buffer solution (DPBS) without Ca, Mg, Phenol Red (GenClone, Genesee). Cells were stained with 50 μg/mL pHrodo Green Dextran, 10,000 MW, 100 nM TMRM, and 50 nM LysoTracker Deep Red (Invitrogen) for 4 h and subsequently imaged. The lifetimes for these fluorophore species are ~0.6ns, ~2.3ns, and ~4.3ns.
+For this data sets, the parameters are slightly different from the default values and given as: Interpulse times = 12.85ns, IRF mean = 12.2ns, IRF sigma = 0.796ns.
