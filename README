@@ -37,8 +37,8 @@ gui in the command window. The gui has 4 sections:
 			          a) "plot lifetime" will show a plot of all the lifetime samples vs Monte Carlo 
                                      iterations (good at assessing convergence) taken from the posterior.
                                   b) "plot ratio" same as above but for the photon ratio.
-                                  c) "hist lifetime" will show the histogram of the sampled lifetimes associated to the species
-                                     with photon ratios larger than the threshold given.
+                                  c) "hist lifetime" will show the histogram of the sampled lifetimes associated to
+                                     the species with photon ratios larger than the threshold given.
                                   d) "hist ratios" the same as item c but for photon ratios.
 	  PLOT:                   this button will plot the results for the parameter picked above
 	  
