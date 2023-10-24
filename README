@@ -48,7 +48,8 @@ the default parameters in the gui. Use the load button to load the data and hit 
 analyze the data. Next, select one of the parameters from the popup menu in the "Results" section and hit PLOT.   
 Note: the default number of iterations is 2500 but this value is data dependent and some data sets might need larger 
 number of iterations. Specifically, data sets containing 3 or more species or more similar lifetimes require more 
-iterations (samples) which, in turn, leads to more computational complexity. The other data set is in vivo experimental data containing three species. For a description of this data see the following.
+iterations (samples) which, in turn, leads to more computational complexity. The other data set is in vivo experimental 
+data containing three species. For a description of this data see the following.
 
 If you happen to have any problem please shoot me an email at fazel.mohamadreza@gmail.com or spresse@asu.edu
 	   
