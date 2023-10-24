@@ -33,7 +33,7 @@ gui in the command window. The gui has 4 sections:
 4) Results:
 	  Photon Ratio Threshold: this is a key parameter in plotting results. All plots will show histograms
                                   of samples with photon ratios (weights) larger than this threshold value
-	  Parameter:              pick one of the options from the popup menu to be shown. There are four options here:
+	  Parameter:              pick one of the options from the popup menu to be shown. There are four options:
 			          a) "plot lifetime" will show a plot of all the lifetime samples vs Monte Carlo iterations 
                                      (good at assessing convergence) taken from the posterior.
                                   b) "plot ratio" same as above but for the photon ratio.
