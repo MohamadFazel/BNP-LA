@@ -164,7 +164,11 @@ function [guiFig,Data] = gui()
     function loadData(~,~)
         [filename, pathname]=uigetfile(pwd,'\*.mat;*.ics;*.h5');
         load(fullfile(pathname,filename),'Dt')
-        Data.DtAll = Dt;
+        if size(Dt,1) == 1
+            Data.DtAll = Dt;
+        else
+            Data.DtAll = Dt';
+        end
     end
 
     function runCode(~,~)
