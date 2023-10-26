@@ -36,7 +36,7 @@ illustrate how to work with the gui. To open the gui set your MATLAB path to the
 	  Photon Ratio Threshold: this is a key parameter in plotting results. All plots will show histograms
                                   of samples with photon ratios (weights) larger than this threshold value
 	  Parameter:              pick one of the options from the popup menu to be shown. There are four options:
-			          a) "plot rti" will show a plot of all the photon ratio samples vs Monte Carlo 
+			          a) "plot ratio" will show a plot of all the photon ratio samples vs Monte Carlo 
                                      iterations (good at assessing convergence) taken from the posterior.
                                   b) "plot lifetime" same as above but for the lifetimes.
                                   c) "hist lifetime" will show the histogram of the sampled lifetimes associated to
