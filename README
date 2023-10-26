@@ -44,7 +44,11 @@ illustrate how to work with the gui. To open the gui set your MATLAB path to the
                                   d) "hist ratios" the same as item c but for photon ratios.
 	  PLOT:                   this button will plot the results for the parameter picked above
 	  
-	  
+After the analysis is done, the time that it took to analyze the data will be printed in the command window. We 
+would suggest to first look at the plot of the photon ratios to detemine the number of species. This number is given 
+as the number of species with non-negligible photon ratios in the resulting plot. Next, use the photon ratio plot to 
+set a threshold value and plot the lifetime histograms to see the found lifetimes. 
+
 The package contains a set of simulated data with lifetimes of 0.2ns and 0.6ns (both below the default IRF sigma) 
 with the default parameters in the gui. Use the load button to load the data and hit RUN. It will take less than 30s 
 to analyze the data. Next, select one of the parameters from the popup menu in the "Results" section and hit PLOT.   
