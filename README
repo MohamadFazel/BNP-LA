@@ -5,8 +5,8 @@ Lorenzo Scipioni, Enrico Gratton, Michelle A. Digman and Steve Presse, Biophysic
 
 BNP-LA is capable of dealing with a broad range of lifetimes and photon ratios using as few photons as 500
 acquired using a pulsed illumination procedure. The MATLAB software package comes with a gui and here we 
-illustrate how to work with the gui. To open the gui set your MATLAB path to the Functions-folder and type 
-gui in the command window. The gui has 4 sections:
+illustrate how to work with the gui. To open the gui set your MATLAB path to the Functions-folder, type 
+gui in the command window and hit "Enter". The gui has 4 sections:
 
 1) Exp Params: this section contains calibrated parameters from the experimental setup:
           Interpulse time: the period between two consecutive laser pulses in ns (Default: 12.8ns)
