@@ -27,7 +27,8 @@ gui in the command window. The gui has 4 sections:
                            input photons) (Default: 5000)
 	  Iterations:      number of samples to be taken from the posterior (more samples tend to give better 
                            results but adds computational cost) (Default: 2500)
-	  LOAD DATA:       this button popups a directory where data file can be selected
+	  LOAD DATA:       this button popups a directory where data file can be selected. The data should be an  
+                           array of photon arrival times in "ns" and saved as a row vector called "Dt".
 	  RUN:             this button runs the algorithm
 	  
 4) Results:
