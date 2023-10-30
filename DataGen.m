@@ -1,5 +1,5 @@
 %% Generate Data
-% This script generates data simulated data set given in the Data-directory
+% This script generates the simulated data set given in the Data-directory
 % Every parameter used in data generation are saved under a structure "Data"
 
 Data.Number_pulse            = 3*10^5                      ; % Number of laser pulses used to illuminate the sample (larger values give more photons)
