@@ -26,7 +26,7 @@ if nargin < 6
     NChain = 5000;
 end
 if nargin < 7
-    Alpha = 5000;
+    Alpha = 1000;
 end
 
 %Chains
