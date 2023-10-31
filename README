@@ -59,7 +59,10 @@ Note: the default number of iterations is 2500 but this value is data dependent 
 number of iterations. Specifically, data sets containing 3 or more species or more similar lifetimes require more 
 iterations (samples) which, in turn, leads to more computational complexity. The script "GenData.m" simulates this 
 data set. The other data set is in vivo experimental data containing three species. For a description of this data 
-see the following.
+see the following section.
+
+The function "findIRF" can be used to calibrate the parameters of a Gaussian IRF, namely mean and standard deviation, 
+using a data set containing a single species with known lifetime.
 
 If you happen to have any problem please shoot us an email at fazel.mohamadreza@gmail.com or spresse@asu.edu
 	   
