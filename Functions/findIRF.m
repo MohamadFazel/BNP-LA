@@ -2,7 +2,7 @@ function findIRF(Dt,Lifetime,T,N,Bg,NChain,Alpha)
 %findIRF find IRF parameters using calibration data with a single species.
 %The IRF assumes to be Gaussian and a single lifetime component with
 %exponential lifetime decay. The background is assumed to be a uniform
-%distribution with not IRF effect.
+%distribution with not IRF effect. A few thousand photons is often enough.
 %
 %INPUT:
 %   Dt: Photon arrival times (ns)
@@ -10,7 +10,7 @@ function findIRF(Dt,Lifetime,T,N,Bg,NChain,Alpha)
 %   T: interpulse period (time preiod between 2 consecutive pulses) (ns)
 %   N: Number of pretiouse pulse to be considered
 %   Bg: Binary parameter indicating if there is background or not (Defalt: 0)
-%   NChain: Number of samples to be taken (Default: 10000)
+%   NChain: Number of samples to be taken (Default: 5000)
 %   Alpha: Parameter of the gamma proposal distribution (Default: 1000)
 %
 %OUTPUT:
@@ -23,7 +23,7 @@ if nargin < 5
     Bg = 0; 
 end
 if nargin < 6
-    NChain = 10000;
+    NChain = 5000;
 end
 if nargin < 7
     Alpha = 5000;
