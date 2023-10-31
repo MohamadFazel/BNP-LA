@@ -7,7 +7,7 @@ function findIRF(Dt,Lifetime,T,N,Bg,NChain,Alpha)
 %INPUT:
 %   Dt: Photon arrival times (ns)
 %   Lifetime: Mean lifetime of the species in the calibration data
-%   T: pulse period (time preiod between 2 consecutive pulses) (ns)
+%   T: interpulse period (time preiod between 2 consecutive pulses) (ns)
 %   N: Number of pretiouse pulse to be considered
 %   Bg: Binary parameter indicating if there is background or not (Defalt: 0)
 %   NChain: Number of samples to be taken (Default: 10000)
