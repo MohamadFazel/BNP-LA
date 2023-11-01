@@ -15,6 +15,7 @@ The gui has 4 sections:
           Interpulse time: the period between two consecutive laser pulses in ns (Default: 12.8ns)
           IRF mean:        mean of the Gaussian IRF in ns (Default: 12.2ns)
           IRF sigma:       sigma of the Gaussian IRF in ns (Default: 0.66ns)
+
 The function "findIRF" can be used to calibrate the parameters of a Gaussian IRF, namely mean and standard 
 deviation, using a data set containing a single species with known lifetime.
           
