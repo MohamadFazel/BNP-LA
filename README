@@ -15,6 +15,8 @@ The gui has 4 sections:
           Interpulse time: the period between two consecutive laser pulses in ns (Default: 12.8ns)
           IRF mean:        mean of the Gaussian IRF in ns (Default: 12.2ns)
           IRF sigma:       sigma of the Gaussian IRF in ns (Default: 0.66ns)
+The function "findIRF" can be used to calibrate the parameters of a Gaussian IRF, namely mean and standard deviation, 
+using a data set containing a single species with known lifetime.
           
 2) Method Params: parameters of the analysis method which are mostly good as they are
 	  Max Species:     maximum number of species (described by M in the paper) to be considered in the
@@ -60,9 +62,6 @@ number of iterations. Specifically, data sets containing 3 or more species or mo
 iterations (samples) which, in turn, leads to more computational complexity. The script "GenData.m" simulates this 
 data set. The other data set is in vivo experimental data containing three species. For a description of this data 
 see the following section.
-
-The function "findIRF" can be used to calibrate the parameters of a Gaussian IRF, namely mean and standard deviation, 
-using a data set containing a single species with known lifetime.
 
 If you happen to have any problem please shoot us an email at fazel.mohamadreza@gmail.com or spresse@asu.edu
 	   
