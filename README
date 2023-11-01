@@ -20,6 +20,7 @@ The gui has 4 sections:
 	  Max Species:     maximum number of species (described by M in the paper) to be considered in the
 	  		   Dirichlet process. This should be larger than the number of species present in 
 	  		   the input data (Default: 5)
+                           N.B. Setting too high can increase computational cost.
 	  Max Pulses:      maximum number of pulses following the excitation pulse over which a fluorophore might 
 		           remain excited (Default: 5) 
                            N.B. Setting too high can increase computational cost.
