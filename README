@@ -5,8 +5,8 @@ Lorenzo Scipioni, Enrico Gratton, Michelle A. Digman and Steve Presse, Biophysic
 
 BNP-LA is capable of dealing with a broad range of lifetimes and photon ratios using as few photons as 500 acquired 
 using a pulsed illumination procedure. The MATLAB software package comes with a gui and here we illustrate how to 
-work with the gui. To run the algorithm you need to have matlab 2020 or higher versions installed with Statistics 
-and Machine Learning Toolbox.
+work with the gui. To run the algorithm you need to have matlab 2020 or higher versions installed with the Statistics 
+and Machine Learning Toolbox available.
 
 To open the gui set your MATLAB path to the Functions-folder, type "gui" in the command window and hit "Enter". 
 The gui has 4 sections:
